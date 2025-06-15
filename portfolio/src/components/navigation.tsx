@@ -25,9 +25,9 @@ export function Navigation() {
 
   return (
     <nav className="fixed top-0 w-full bg-black/90 backdrop-blur-md border-b border-accent/20 z-50">
-      <div className="container mx-auto px-4">
+      <div className=" mx-12 my-2 px-1">
         <div className="flex items-center justify-between h-16">
-          <div className="font-bold text-xl">
+          <div className="font-extrabold text-3xl">
             <span className="text-gradient">Abiel Yemane</span>
           </div>
 
@@ -37,7 +37,7 @@ export function Navigation() {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-300 hover:text-accent transition-colors duration-300 font-medium relative group"
+                className="text-gray-300 text-xl hover:text-accent transition-colors duration-300 font-medium relative group"
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-accent to-orange transition-all duration-300 group-hover:w-full"></span>

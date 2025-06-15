@@ -40,11 +40,10 @@ export function Hero() {
             </span>
           </h1>
           <p className="text-xl md:text-3xl mb-8 bg-gradient-to-r from-accent to-orange bg-clip-text text-transparent font-semibold">
-            Full Stack Developer & UI/UX Designer
+            Full Stack Developer & AI Enthusiast
           </p>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            I create beautiful, functional, and user-centered digital experiences. Passionate about clean code,
-            innovative design, and solving complex problems with cutting-edge technology.
+            I enjoy building Full Stack Applications and finding different ways to integrate AI into my work.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button
@@ -63,27 +62,27 @@ export function Hero() {
               Get In Touch
             </Button>
           </div>
-          <div className="flex justify-center space-x-6">
+          <div className="flex justify-center space-x-10">
             <Button
               variant="ghost"
               size="icon"
-              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-3 transition-all duration-300 transform hover:scale-110"
+              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-4 transition-all duration-300 transform hover:scale-110"
             >
-              <Github className="h-6 w-6" />
+              <Github className="h-8 w-8" />
             </Button>
             <Button
               variant="ghost"
               size="icon"
-              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-3 transition-all duration-300 transform hover:scale-110"
+              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-4 transition-all duration-300 transform hover:scale-110"
             >
-              <Linkedin className="h-6 w-6" />
+              <Linkedin className="h-8 w-8" />
             </Button>
             <Button
               variant="ghost"
               size="icon"
-              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-3 transition-all duration-300 transform hover:scale-110"
+              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-4 transition-all duration-300 transform hover:scale-110"
             >
-              <Mail className="h-6 w-6" />
+              <Mail className="h-8 w-8" />
             </Button>
           </div>
         </div>
