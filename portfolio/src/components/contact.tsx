@@ -42,23 +42,16 @@ export function Contact() {
                   <Mail className="h-5 w-5 text-white" />
                 </div>
                 <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
-                  abiel.yemane@example.com
+                  amy9270@g.rit.edu
                 </span>
               </div>
-              <div className="flex items-center space-x-4 group">
-                <div className="p-3 bg-gradient-to-r from-accent to-orange rounded-full group-hover:scale-110 transition-transform duration-300">
-                  <Phone className="h-5 w-5 text-white" />
-                </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
-                  +1 (555) 123-4567
-                </span>
-              </div>
+              
               <div className="flex items-center space-x-4 group">
                 <div className="p-3 bg-gradient-to-r from-accent to-orange rounded-full group-hover:scale-110 transition-transform duration-300">
                   <MapPin className="h-5 w-5 text-white" />
                 </div>
                 <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
-                  San Francisco, CA
+                 Rochester, NY
                 </span>
               </div>
             </div>

@@ -27,14 +27,12 @@ export function About() {
                   </div>
                 </div>
                 <p className="text-xl">
-                  I'm a recent graduate from the Rochester Institute of Technology with a B.S. in Software Engineering.  
-                </p>
-                <p>GO TIGERS!</p>
+                  I'm a recent graduate from the Rochester Institute of Technology with a B.S. in Software Engineering. <br></br>GO TIGERS!</p>
               </div>
               {/* column 1 end*/}
 
               {/* column 2 start*/}
-              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+              <div className="space-y-6 text-xl text-gray-700 leading-relaxed">
                 {/* Profile Image */}
                 <div className="mb-8 flex justify-center">
                   <div className="relative">
@@ -58,7 +56,7 @@ export function About() {
               {/* column 2 end*/}
 
               {/* column 3 start*/}                
-              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+              <div className="space-y-6 text-xl text-gray-700 leading-relaxed">
                 {/* Profile Image */}
                 <div className="mb-8 flex justify-center">
                   <div className="relative">

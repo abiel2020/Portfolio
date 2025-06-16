@@ -13,7 +13,7 @@ export function Skills() {
     },
     {
       title: "Tools & Others",
-      skills: ["Git", "Docker", "Jest", "Terraform", "Selenium"],
+      skills: ["Git", "Docker", "Jest", "Terraform", "Scikit-learn", "pandas", "numpy"],
     },
   ]
 

@@ -23,7 +23,7 @@ export function Hero() {
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-gradient-to-r from-accent to-orange p-1 bg-gradient-to-r from-accent to-orange">
                 <div className="w-full h-full rounded-full overflow-hidden bg-white">
                   <img
-                    src="/placeholder.svg?height=160&width=160"
+                    src="/me.png?height=160&width=160"
                     alt=""
                     className="w-full h-full object-cover"
                   />
@@ -33,22 +33,22 @@ export function Hero() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-accent via-orange to-accent opacity-75 animate-spin-slow blur-sm -z-10"></div>
             </div>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+          <h1 className="text-5xl md:text-8xl font-bold mb-6 text-white">
             Hi, I'm{" "}
             <span className="text-gradient animate-gradient-shift bg-gradient-to-r from-accent via-orange to-accent bg-[length:200%_auto]">
               Abiel Yemane
             </span>
           </h1>
-          <p className="text-xl md:text-3xl mb-8 bg-gradient-to-r from-accent to-orange bg-clip-text text-transparent font-semibold">
+          <p className="text-xl md:text-5xl mb-8 bg-gradient-to-r from-accent to-orange bg-clip-text text-transparent font-semibold">
             Full Stack Developer & AI Enthusiast
           </p>
-          <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             I enjoy building Full Stack Applications and finding different ways to integrate AI into my work.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-accent to-orange hover:from-accent-600 hover:to-orange-600 text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              className="bg-gradient-to-r from-accent to-orange hover:from-accent-600 hover:to-orange-600 text-white text-lg font-semibold px-12 py-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               onClick={() => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" })}
             >
               View My Work
@@ -56,34 +56,40 @@ export function Hero() {
             <Button
               variant="outline"
               size="lg"
-              className="border-2 border-accent text-accent hover:bg-accent hover:text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+              className="border-2 border-accent text-accent hover:bg-accent hover:text-white font-semibold px-12 py-8 text-lg rounded-full transition-all duration-300 transform hover:scale-105"
               onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
             >
               Get In Touch
             </Button>
           </div>
           <div className="flex justify-center space-x-10">
+            <a href="https://github.com/abiel2020" target="_blank" rel="noopener noreferrer">
             <Button
               variant="ghost"
-              size="icon"
-              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-4 transition-all duration-300 transform hover:scale-110"
+              size="lg"
+              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-6 transition-all duration-300 transform hover:scale-110"
             >
-              <Github className="h-8 w-8" />
+              <Github className="h-10 w-10" />
             </Button>
+            </a>
+            <a href="https://www.linkedin.com/in/abiel-yemane/" target="_blank" rel="noopener noreferrer">
             <Button
               variant="ghost"
-              size="icon"
-              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-4 transition-all duration-300 transform hover:scale-110"
+              size="lg"
+              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-6 transition-all duration-300 transform hover:scale-110"
             >
-              <Linkedin className="h-8 w-8" />
+              <Linkedin className="h-10 w-10" />
             </Button>
+            </a>
+            <a href="mailto:amy9270@g.rit.edu" target="_blank" rel="noopener noreferrer">
             <Button
               variant="ghost"
-              size="icon"
-              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-4 transition-all duration-300 transform hover:scale-110"
+              size="lg"
+              className="text-gray-400 hover:text-accent hover:bg-accent/10 rounded-full p-6 transition-all duration-300 transform hover:scale-110"
             >
-              <Mail className="h-8 w-8" />
+              <Mail className="h-10 w-10" />
             </Button>
+            </a>
           </div>
         </div>
       </div>

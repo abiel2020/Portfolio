@@ -6,20 +6,18 @@ import { ExternalLink, Github } from "lucide-react"
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description:
-        "A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      image: "/placeholder.svg?height=200&width=400",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+      title: "WinScope",
+      description:"A NBA Player Analytics Dashboard that empowers users to explore, compare, and predict NBA player performance using advanced data visualization and machine learning.",
+      image: "/winscope.jpeg",
+      technologies: ["Next.js", "TypeScript", "MogoDB", "Python","Scikit-learn", "pandas", "numpy", ],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/abiel2020/WinScope",
     },
     {
-      title: "Task Management App",
-      description:
-        "A collaborative task management application with real-time updates and team collaboration features.",
-      image: "/placeholder.svg?height=200&width=400",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
+      title: "TradeSpace",
+      description:"Ai powered trading journal that allows users to track their trades, analyze their performance, and improve their trading skills.",
+      image: "/tradespace.webp?height=200&width=400",
+      technologies: ["React","TypeScript", "Node.js", "Next.js", "Supabase", "OpenAI API"],
       liveUrl: "#",
       githubUrl: "#",
     },
@@ -34,7 +32,7 @@ export function Projects() {
   ]
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section id="projects" className="py-20 bg-gradient-to-b from-gray-50 to-white realtive">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -84,6 +82,7 @@ export function Projects() {
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Live Demo
                   </Button>
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                   <Button
                     size="sm"
                     variant="outline"
@@ -92,6 +91,7 @@ export function Projects() {
                     <Github className="h-4 w-4 mr-2" />
                     Code
                   </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
