@@ -54,7 +54,7 @@ export function About() {
                   </div>
                 </div>
                 <p>
-                  Software Engineer at Wabtec Corpoation - 1 Year. Developing and maintaining Full Stack Applications, eliminating security vulnerabilities, and improving user experience.
+                  Software Engineer at Wabtec Corporation - 1 Year. Developing and maintaining Full Stack Applications, eliminating security vulnerabilities, and improving user experience.
                 </p>
               </div>
               {/* column 3 end*/}
