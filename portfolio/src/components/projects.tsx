@@ -19,16 +19,8 @@ export function Projects() {
       image: "/tradespace.webp?height=200&width=400",
       technologies: ["React","TypeScript", "Node.js", "Next.js", "Supabase", "OpenAI API"],
       liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard with location-based forecasts and interactive charts.",
-      image: "/placeholder.svg?height=200&width=400",
-      technologies: ["Vue.js", "Chart.js", "Weather API", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
+      githubUrl: "https://github.com/abiel2020/Tradespace",
+    }
   ]
 
   return (
@@ -42,7 +34,7 @@ export function Projects() {
             Here are some of my recent projects that showcase my skills and experience
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card
               key={project.title}
@@ -75,13 +67,13 @@ export function Projects() {
                   ))}
                 </div>
                 <div className="flex gap-2">
-                  <Button
+                  {/* <Button
                     size="sm"
                     className="flex-1 bg-gradient-to-r from-accent to-orange hover:from-accent-600 hover:to-orange-600 text-white transition-all duration-300"
                   >
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Live Demo
-                  </Button>
+                  </Button> */}
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                   <Button
                     size="sm"
