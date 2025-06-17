@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -78,18 +78,18 @@ export function Contact() {
             Get In <span className="text-gradient">Touch</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities and interesting projects
+            I&apos;m always open to discussing new opportunities and interesting projects
           </p>
         </div>
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-white">
-                Let's work <span className="text-gradient">together</span>
+                Let&apos;s work <span className="text-gradient">together</span>
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Whether you have a project in mind or just want to chat about technology, I'd love to hear from you.
-                Drop me a message and I'll get back to you as soon as possible.
+                Whether you have a project in mind or just want to chat about technology, I&apos;d love to hear from you.
+                Drop me a message and I&apos;ll get back to you as soon as possible.
               </p>
             </div>
             <div className="space-y-6">
@@ -118,7 +118,7 @@ export function Contact() {
             <CardHeader className="bg-gradient-to-r from-accent/20 to-orange/20 p-6 rounded-t-lg border-b border-accent/10">
               <CardTitle className="text-white text-xl m-0 p-0">Send me a message</CardTitle>
               <CardDescription className="text-gray-300 mt-2 m-0 p-0">
-                Fill out the form below and I'll get back to you within 24 hours
+                Fill out the form below and I&apos;ll get back to you within 24 hours
               </CardDescription>
             </CardHeader>
             <CardContent className="p-6">
@@ -194,7 +194,7 @@ export function Contact() {
                 
                 {submitStatus === 'success' && (
                   <div className="p-3 bg-green-500/20 border border-green-500/30 rounded-md">
-                    <p className="text-green-400 text-sm">Message sent successfully! I'll get back to you soon.</p>
+                    <p className="text-green-400 text-sm">Message sent successfully! I&apos;ll get back to you soon.</p>
                   </div>
                 )}
                 

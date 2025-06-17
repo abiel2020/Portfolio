@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail } from "lucide-react"
+import Image from 'next/image'
 
 export function Hero() {
   return (
@@ -22,9 +23,11 @@ export function Hero() {
             <div className="relative">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-gradient-to-r from-accent to-orange p-1 bg-gradient-to-r from-accent to-orange">
                 <div className="w-full h-full rounded-full overflow-hidden bg-white">
-                  <img
-                    src="/me.png?height=160&width=160"
+                  <Image
+                    src="/me.png"
                     alt=""
+                    width={160}
+                    height={160}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -34,7 +37,7 @@ export function Hero() {
             </div>
           </div>
           <h1 className="text-5xl md:text-8xl font-bold mb-6 text-white">
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="text-gradient animate-gradient-shift bg-gradient-to-r from-accent via-orange to-accent bg-[length:200%_auto]">
               Abiel Yemane
             </span>

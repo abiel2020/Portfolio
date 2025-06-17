@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Github } from "lucide-react"
-
+import { Github } from "lucide-react"
+import Image from 'next/image'
 export function Projects() {
   const projects = [
     {
@@ -16,7 +16,7 @@ export function Projects() {
     {
       title: "TradeSpace",
       description:"Ai powered trading journal that allows users to track their trades, analyze their performance, and improve their trading skills.",
-      image: "/tradespace.webp?height=200&width=400",
+      image: "/tradespace.webp",
       technologies: ["React","TypeScript", "Node.js", "Next.js", "Supabase", "OpenAI API"],
       liveUrl: "#",
       githubUrl: "https://github.com/abiel2020/Tradespace",
@@ -35,15 +35,17 @@ export function Projects() {
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <Card
               key={project.title}
               className="overflow-hidden bg-white border-gray-200 hover:shadow-2xl hover:shadow-accent/10 transition-all duration-300 transform hover:scale-105 group"
             >
               <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
-                <img
+                <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
+                  width={400}
+                  height={200}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

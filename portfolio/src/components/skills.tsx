@@ -29,7 +29,7 @@ export function Skills() {
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {skillCategories.map((category, index) => (
+          {skillCategories.map((category) => (
             <Card
               key={category.title}
               className="overflow-hidden bg-gradient-to-br from-secondary-800 to-secondary-900 border-accent/20 hover:border-accent/40 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-accent/10 p-0"
