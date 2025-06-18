@@ -14,7 +14,7 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
       </main>
       <footer className="border-t border-accent/20 py-8 bg-gradient-to-r from-black to-secondary-900">
         <div className="container mx-auto px-4 text-center">
