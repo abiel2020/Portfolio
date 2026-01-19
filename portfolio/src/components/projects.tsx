@@ -15,8 +15,8 @@ export function Projects() {
     },
     {
       title: "TradeSpace",
-      description:"Ai powered trading coach that allows users to track their trades, analyze their performance, and improve their trading skills.",
-      image: "/tradespace.webp",
+      description:"Ai powered trading journal that allows users to track their trades, analyze their performance, and improve their trading skills.",
+      image: "/tradespace.png",
       technologies: ["React","TypeScript", "Node.js", "Next.js", "Supabase", "OpenAI API"],
       liveUrl: "#",
       githubUrl: "https://www.trade-space.dev/",

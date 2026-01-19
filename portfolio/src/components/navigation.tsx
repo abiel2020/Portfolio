@@ -11,8 +11,7 @@ export function Navigation() {
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
+    { href: "#projects", label: "Projects" }
   ]
 
   const scrollToSection = (href: string) => {

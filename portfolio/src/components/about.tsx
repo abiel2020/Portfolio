@@ -8,7 +8,7 @@ export function About() {
               <span className="text-gradient">About Me</span>
             </h2>
             
-            <div className="grid md:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
               {/* column 1 start*/}
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 {/* Profile Image */}
@@ -58,32 +58,6 @@ export function About() {
                 </p>
               </div>
               {/* column 3 end*/}
-
-              {/* column 2 start*/}
-              <div className="space-y-6 text-xl text-gray-700 leading-relaxed">
-                {/* Profile Image */}
-                <div className="mb-8 flex justify-center">
-                  <div className="relative">
-                    <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-gradient-to-r from-accent to-orange p-1 bg-gradient-to-r from-accent to-orange">
-                      <div className="w-full h-full rounded-full overflow-hidden bg-white">
-                        <Image
-                          src="/bjj.png"
-                          width={160}
-                          height={160}
-                          alt=""
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    </div>
-                    {/* Animated gradient ring */}
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-accent via-orange to-accent opacity-75 animate-spin-slow blur-sm -z-10"></div>
-                  </div>
-                </div>
-                <p>
-                  When I&apos;m not coding I like to go workout, hit the mats with my BJJ team, scraping the markets for Stocks to trade, and I love explore new food spots with my two brothers. 
-                </p>
-              </div>
-              {/* column 2 end*/}
 
               {/* column 3 start*/}                
               <div className="space-y-6 text-xl text-gray-700 leading-relaxed">
